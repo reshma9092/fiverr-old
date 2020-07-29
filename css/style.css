@@ -1,0 +1,165 @@
+:root {
+    --green: #00b30c;
+    --gray1: #353537;
+    --gray2: #eaeaeb;
+    --gray3: #777777;
+}
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700 !important;
+}
+h2{
+    font-size: 3rem !important;
+}
+.header {
+    background-image: url(../img/hero.jpg);
+    min-height: 30rem;
+    background-size: cover;
+}
+a.btn-outline-light:hover {
+    color: black !important;
+    font: 500;
+}
+.header .nav-link{
+    color: white !important;
+    font: 500;
+}
+.header .nav-link:hover {
+    transform: scale(1.15) !important;
+}
+.caption {
+    min-height: 25rem;
+}
+.caption h1,p {
+    font: 700;
+}
+.category {
+    padding-bottom: 60px;
+    overflow: hidden;
+    height: calc(auto+30px);
+}
+.category h3:before {
+    content: "";
+    display: block;
+    margin: 5px auto 20px auto;
+    height: 3px;
+    width: 60px;
+    background-color: rgb(7, 46, 117);
+    transition: all 0.3s ease-in;
+}
+.category:hover h3:before {
+    width: 180px;
+}
+.category p{
+    opacity: 0;
+    padding-top: 30px;
+    transition: all 0.3s ease-in;
+}
+.category:hover p{
+    opacity: 1;
+    display: block;
+    padding-top: 10px;
+    color: rgb(7, 46, 117);
+}
+#first .row > div {
+    flex: 1 0 calc(50% - 1rem);
+}
+@media (min-width: 992px) {
+    #first .row > div {
+        flex: 0 1 calc(20% - 1rem);
+    }
+}
+#first .description {
+    height: 20rem;
+    width: 13rem;
+    background-size: cover;
+}
+#first .description p {
+    font-size: 1rem;
+}
+#first .description  span {
+    display: block;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+#first .logo {
+    background-image: url(../img/service_1.png);
+}
+#first .wordpress {
+    background-image: url(../img/service_2.png);
+}
+#first .audio {
+    background-image: url(../img/service_3.png);
+}
+#first .translate {
+    background-image: url(../img/service_4.png);
+}
+#first .social-media {
+    background-image: url(../img/service_5.png);
+}
+.testimonials {
+    background-color: rgba(3, 25, 66, 0.233);
+}
+.testimonials .carousel {
+    background-color: rgba(0, 0, 0, 0.548);
+}
+.testimonials .carousel-item  h4 {
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: white;
+}
+.testimonials .carousel-item blockquote {
+    font-size: 1.8rem;
+    color: white;
+    font-style: italic;
+}
+.testimonials .carousel-item  p {
+    font-size: .8rem;
+    color: white;
+}
+#footer {
+    background: rgba(3, 25, 66, 0.979);
+}
+#footer .container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+}
+#footer a {
+    text-decoration: none;
+    color: #c0b7b7;
+}
+#footer h5 {
+    font-weight: 700;
+    color: #c0b7b7;
+}
+#footer .nav-link {
+    padding: .5rem 10px !important;
+    font-size: 1rem !important;
+}
+#footer .nav-link:hover{
+    transform: scale(1.15);
+    font-weight: 600;
+}
+#footer .container-fluid > div {
+    justify-content: space-between;
+    flex: 0 0 calc(50% - 1rem);
+    padding: 1rem;
+}
+@media (min-width: 768px) {
+    #footer .container-fluid > div  {
+        flex: 0 0 calc(33.3% - 1rem);
+    }
+}
+
+@media (min-width: 992px) {
+    #footer .container-fluid > div  {
+        flex: 0 1 calc(20%);
+    }
+}
+
+
+
+
+
+
+
